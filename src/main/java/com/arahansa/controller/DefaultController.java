@@ -16,4 +16,10 @@ public class DefaultController {
     return "hello world";
   }
 
+  @GetMapping("/hello")
+  @ResponseBody
+  public String hello(){
+    return "hello";
+  }
+
 }
