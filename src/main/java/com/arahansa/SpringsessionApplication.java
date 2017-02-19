@@ -9,4 +9,5 @@ public class SpringsessionApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringsessionApplication.class, args);
 	}
+
 }
